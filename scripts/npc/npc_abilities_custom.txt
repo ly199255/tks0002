@@ -5759,6 +5759,8 @@
 		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
 		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"MaxLevel"	"10"
+		"LevelsBetweenUpgrades"	"1"
 		"precache"
 		{
 			"particle"	"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_stunned_bg.vpcf"
@@ -5786,6 +5788,8 @@
 		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
 		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"MaxLevel"	"10"
+		"LevelsBetweenUpgrades"	"1"
 		"precache"
 		{
 			"particle"	"particles/econ/items/earthshaker/earthshaker_arcana/earthshaker_arcana_stunned_bg.vpcf"
@@ -5811,6 +5815,7 @@
 		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"SpellImmunityType"	"SPELL_IMMUNITY_ALLIES_NO"
 		"MaxLevel"	"10"
+		"LevelsBetweenUpgrades"	"1"
 		"AbilityCooldown"	"1"
 		"precache"
 		{
@@ -5871,6 +5876,8 @@
 		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
 		"AbilityUnitDamageType"	"DAMAGE_TYPE_PHYSICAL"
+		"MaxLevel"	"10"
+		"LevelsBetweenUpgrades"	"1"
 		"AbilitySpecial"
 	{
 			"01"
@@ -5888,6 +5895,8 @@
 		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
 		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"MaxLevel"	"10"
+		"LevelsBetweenUpgrades"	"1"
 			"AbilitySpecial"
 		{
 			"01"
@@ -5902,6 +5911,8 @@
 		"BaseClass"		"ability_lua"
 		"ScriptFile"	"skill/hero_maqian.lua"
 		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel"	"10"
+		"LevelsBetweenUpgrades"	"1"
 	}
 	"skill_hero_juji"
 	{
@@ -5911,12 +5922,40 @@
 		"AbilityUnitTargetType"	"DOTA_UNIT_TARGET_ALL"
 		"AbilityUnitTargetTeam"	"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityCooldown"	"8"
+		"MaxLevel"	"10"
+		"LevelsBetweenUpgrades"	"1"
 	}
 	"skill_hero_liegong"
 	{
 		"BaseClass"		"ability_lua"
 		"ScriptFile"	"skill/hero_liegong.lua"
 		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel"	"10"
+		"LevelsBetweenUpgrades"	"1"
+	}
+	"skill_hero_jiang"
+	{
+		"BaseClass"		"ability_lua"
+		"ScriptFile"	"skill/hero_jiang.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel"	"10"
+		"LevelsBetweenUpgrades"	"1"
+	}
+	"skill_hero_yingzi"
+	{
+		"BaseClass"		"ability_lua"
+		"ScriptFile"	"skill/hero_yingzi.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel"	"10"
+		"LevelsBetweenUpgrades"	"1"
+	}
+		"skill_hero_taijun"
+	{
+		"BaseClass"		"ability_lua"
+		"ScriptFile"	"skill/hero_taijun.lua"
+		"AbilityBehavior"	"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel"	"10"
+		"LevelsBetweenUpgrades"	"1"
 	}
 
 	
